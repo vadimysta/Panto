@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import "./../fonts/Gilroy/stylesheet.css";
+/*fonts*/
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+.h1 {
+  color: rgb(229, 132, 17);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+}
+* input:focus, * button:focus {
+  outline: none; /* Убираем обводку */
+}
+
+button, img {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}/*# sourceMappingURL=index.css.map */
