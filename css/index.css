@@ -1,13 +1,8 @@
 @charset "UTF-8";
 @import "./../fonts/Gilroy/stylesheet.css";
-/*fonts*/
-body {
-  font-family: "DM Sans", sans-serif;
-  font-family: "Inter", sans-serif;
-}
-
-.h1 {
-  color: rgb(229, 132, 17);
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap");
+html, body {
+  font-family: "Gilroy", sans-serif;
 }
 
 * {
@@ -28,4 +23,223 @@ button, img {
 
 a {
   color: inherit;
-}/*# sourceMappingURL=index.css.map */
+}
+
+*::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.info-dot:hover {
+  width: 56px;
+  height: 56px;
+}
+.info-dot:hover .info-dot-color {
+  width: 18px;
+  height: 18px;
+}
+
+/*base files*/
+.header {
+  color: rgb(255, 255, 255);
+  background-image: url("./../img/Panto-img/header-img.jpeg");
+  aspect-ratio: 1440/1084;
+  background-size: cover;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.header-text {
+  max-width: 606px;
+  font-size: 24px;
+  margin: 0 auto;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 84px;
+}
+
+.header-input {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.header-input::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header-input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header-input:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header-input::-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header-input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.header-btn-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: rgb(229, 132, 17);
+  padding: 11px;
+  border-radius: 24px;
+}
+
+.header-form {
+  width: 344px;
+  height: 56px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 8px 8px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.86px solid rgba(255, 255, 255, 0.6);
+  border-radius: 42px;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-list {
+  font-size: 18px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 62px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0px 97px;
+}
+
+.nav-cart {
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+}
+
+.nav-icon-num {
+  position: absolute;
+  top: 3px;
+  right: -6px;
+  display: inline-block;
+  background-color: rgb(229, 132, 17);
+  border-radius: 40px;
+  height: 25px;
+  padding: 0 6px;
+  font-weight: 700;
+}
+
+.benefits-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.benefits {
+  padding: 120px 0px 120px;
+}
+
+.behefits-link-title {
+  font-size: 42px;
+  font-weight: 700;
+  max-width: 242px;
+}
+
+.benefits-block-title {
+  color: rgb(30, 30, 30);
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.benefits-block-text {
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 14px;
+}
+
+.benefits-block-link {
+  color: rgb(229, 132, 17);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+}
+
+.benefits-item-block {
+  max-width: 284px;
+}
+
+/*blocks files*//*# sourceMappingURL=index.css.map */

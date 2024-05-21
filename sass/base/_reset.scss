@@ -17,3 +17,8 @@
     a {
         color: inherit;
     }
+
+
+*::after, *::before {
+    box-sizing: border-box;
+}

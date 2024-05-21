@@ -1,0 +1,60 @@
+.header {
+    color: $white;
+    background-image: url('./../img/Panto-img/header-img.jpeg');
+    aspect-ratio: 1440/1084;
+    background-size: cover;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.header-text {
+    max-width: 606px;
+    font-size: 24px;
+    margin: 0 auto;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-bottom: 84px;
+}
+
+.header-input {
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.header-input::placeholder {
+    color: $white;
+}
+
+.header-btn-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: $orange;
+    padding: 11px;
+    border-radius: 24px;
+}
+
+.header-form {
+    width: 344px;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 20px;
+    box-sizing: border-box;
+    border: 0.86px solid rgba(255, 255, 255, 0.6);
+    border-radius: 42px;
+    backdrop-filter: blur(8px);
+}
+
+

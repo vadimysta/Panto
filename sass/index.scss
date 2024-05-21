@@ -1,6 +1,14 @@
 @import "./../fonts/Gilroy/stylesheet.css";
-/*fonts*/
 
 @import "./base/vars";
 @import "./base/base";
 @import "./base/reset";
+@import "./base/container";
+@import "./base/hover";
+/*base files*/
+
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/benefits";
+
+/*blocks files*/

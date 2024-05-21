@@ -1,0 +1,36 @@
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.nav-list {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 62px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px 97px;
+}
+
+.nav-cart {
+    align-self: center;
+    justify-content: end;
+    position: relative;
+}
+
+.nav-icon-num {
+    position: absolute;
+    top: 3px;
+    right: -6px;
+    display: inline-block;
+    background-color: $orange;
+    border-radius: 40px;
+    height: 25px;
+    padding: 0 6px;
+    font-weight: 700;
+}
